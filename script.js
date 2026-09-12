@@ -53,7 +53,7 @@ if (galleryImages.length) {
   const closeButton = lightbox.querySelector('.lightbox-close');
 
   const openLightbox = image => {
-    enlargedImage.src = image.currentSrc || image.src;
+    enlargedImage.src = image.dataset.full || image.currentSrc || image.src;
     enlargedImage.alt = image.alt;
     caption.textContent = image.closest('figure')?.querySelector('figcaption')?.innerText || image.alt;
     lightbox.showModal();
