@@ -1,0 +1,108 @@
+{
+  "engine": "WebKit",
+  "content_preserved": true,
+  "links_preserved": true,
+  "viewports": [
+    {
+      "viewport": "320x568",
+      "overflow": false,
+      "menu": "passed",
+      "theme": "passed",
+      "gallery": "passed",
+      "scroll_restore": "passed",
+      "images": 20,
+      "errors": []
+    },
+    {
+      "viewport": "375x667",
+      "overflow": false,
+      "menu": "passed",
+      "theme": "passed",
+      "gallery": "passed",
+      "scroll_restore": "passed",
+      "images": 20,
+      "errors": []
+    },
+    {
+      "viewport": "390x844",
+      "overflow": false,
+      "menu": "passed",
+      "theme": "passed",
+      "gallery": "passed",
+      "scroll_restore": "passed",
+      "images": 20,
+      "errors": []
+    },
+    {
+      "viewport": "430x932",
+      "overflow": false,
+      "menu": "passed",
+      "theme": "passed",
+      "gallery": "passed",
+      "scroll_restore": "passed",
+      "images": 20,
+      "errors": []
+    },
+    {
+      "viewport": "667x375",
+      "overflow": false,
+      "menu": "passed",
+      "theme": "passed",
+      "gallery": "passed",
+      "scroll_restore": "passed",
+      "images": 20,
+      "errors": []
+    },
+    {
+      "viewport": "844x390",
+      "overflow": false,
+      "menu": "desktop",
+      "theme": "passed",
+      "gallery": "passed",
+      "scroll_restore": "passed",
+      "images": 20,
+      "errors": []
+    },
+    {
+      "viewport": "768x1024",
+      "overflow": false,
+      "menu": "desktop",
+      "theme": "passed",
+      "gallery": "passed",
+      "scroll_restore": "passed",
+      "images": 20,
+      "errors": []
+    },
+    {
+      "viewport": "1024x768",
+      "overflow": false,
+      "menu": "desktop",
+      "theme": "passed",
+      "gallery": "passed",
+      "scroll_restore": "passed",
+      "images": 20,
+      "errors": []
+    },
+    {
+      "viewport": "1440x1000",
+      "overflow": false,
+      "menu": "desktop",
+      "theme": "passed",
+      "gallery": "passed",
+      "scroll_restore": "passed",
+      "images": 20,
+      "errors": []
+    },
+    {
+      "viewport": "1920x1080",
+      "overflow": false,
+      "menu": "desktop",
+      "theme": "passed",
+      "gallery": "passed",
+      "scroll_restore": "passed",
+      "images": 20,
+      "errors": []
+    }
+  ],
+  "no_js_content": true
+}

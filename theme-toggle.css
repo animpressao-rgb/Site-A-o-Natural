@@ -1,0 +1,25 @@
+html {
+  color-scheme: dark;
+  scroll-padding-top: 116px;
+}
+html[data-theme="light"] { color-scheme: light; }
+.topbar { height: 116px; }
+.theme-toggle {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #f1f4f5;
+  cursor: pointer;
+}
+.theme-toggle:hover { color: #ffd617; }
+.theme-toggle[aria-pressed="true"] { color: #ffd617; }
+@media (max-width: 900px) {
+  .topbar { gap: 16px; }
+  .topbar nav { top: 100%; }
+}

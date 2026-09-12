@@ -1,0 +1,103 @@
+@import url("styles.css");
+
+:root {
+  --dark-page: #000;
+  --dark-panel: #171d23;
+  --dark-deep: #0b1015;
+  --dark-line: rgba(218, 229, 235, 0.16);
+  --dark-text: #f1f4f5;
+  --dark-muted: #a9b3b9;
+}
+
+body {
+  color: var(--dark-text);
+  background-color: var(--dark-page);
+  background-image: none;
+}
+
+.hero h1,
+.section h2,
+.solution h3,
+.text-link {
+  color: var(--dark-text);
+}
+
+.hero h1 em,
+.eyebrow,
+.phase {
+  color: #4eb7e8;
+}
+
+.lead,
+.section-head > p:last-child,
+.solution p {
+  color: var(--dark-muted);
+}
+
+.text-link {
+  border-color: var(--dark-text);
+}
+
+.hero-visual {
+  background: #252d33;
+}
+
+.build-line,
+.solution-list,
+.solution {
+  border-color: var(--dark-line);
+}
+
+.build-line {
+  background: var(--dark-line);
+}
+
+.promise {
+  background: #123657;
+}
+
+.solutions {
+  background: rgba(17, 22, 27, 0.82);
+}
+
+.process {
+  background: var(--dark-deep);
+}
+
+.projects {
+  background: var(--dark-panel);
+}
+
+.project-main {
+  background: #080b0e;
+}
+
+.contact {
+  background: #0d6695;
+}
+
+.contact .eyebrow,
+.contact-copy > p:last-child {
+  color: #d6eef9;
+}
+
+footer,
+.topbar {
+  background: #090d11;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+
+.topbar {
+  height: 116px;
+}
+
+@media (max-width: 900px) {
+  .topbar nav {
+    top: 100%;
+  }
+}
