@@ -18,7 +18,7 @@ const galleryImages = document.querySelectorAll('.project-grid img');
 const projectGrid = document.querySelector('#project-grid');
 if (projectGrid) {
   const projects = Array.from(projectGrid.querySelectorAll('figure'));
-  const remainingProjects = projects.slice(7);
+  const remainingProjects = projects.slice(8);
   if (remainingProjects.length) {
     remainingProjects.forEach(project => { project.hidden = true; });
     const moreButton = document.createElement('button');
